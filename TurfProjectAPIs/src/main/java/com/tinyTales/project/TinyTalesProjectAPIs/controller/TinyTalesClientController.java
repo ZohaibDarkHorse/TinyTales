@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.tinyTales.project.TinyTalesProjectAPIs.model.RegisterTinyTalesClient;
 import com.tinyTales.project.TinyTalesProjectAPIs.service.TinyTalesClientService;
-
+@CrossOrigin(origins = "https://tiny-tales-git-12-zo-test-git.apps.nprdc-ocp.dhdigital.co.in/")
 @RestController
 public class TinyTalesClientController {
 
